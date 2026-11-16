@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.venv/
+.env
+infra/.frontend.env
+bizinfo_raw_*.json
+.DS_Store

@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+html, body, #root { margin: 0; padding: 0; }
+body {
+  font-family: 'Noto Sans KR', 'Noto Sans CJK KR', 'Apple SD Gothic Neo', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #fff;
+  overflow-x: hidden;
+}
+input::placeholder { color: #9a9a9a; }
+@keyframes djl-drop {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+/* Figma→코드 변환 결과가 기대하는 기본값 (Tailwind preflight와 동일한 부분만) */
+p, h1, h2, h3 { margin: 0; }
+img, svg { display: block; max-width: 100%; }
+[role='button'] { cursor: pointer; }
